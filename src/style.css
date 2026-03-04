@@ -36,7 +36,6 @@ h1 {
 form {
   display: flex;
   justify-content: center;
-  border-radius: 5px;
   font-size: 16px;
 }
 
@@ -58,6 +57,25 @@ form {
 .topic-submit:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+.hint {
+  color: #4a0e5c;
+  text-align: center;
+}
+.generating {
+  text-align: center;
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
 .poem {
   margin: 50px 70px;
