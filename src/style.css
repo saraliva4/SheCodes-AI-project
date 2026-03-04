@@ -60,10 +60,11 @@ form {
   opacity: 0.8;
 }
 .poem {
-  margin: 50px 0px;
-  display: flex;
-  justify-content: center;
+  margin: 50px 70px;
   font-size: 18px;
+}
+em {
+  color: #4a0e5c;
 }
 footer {
   margin-bottom: 15px;
